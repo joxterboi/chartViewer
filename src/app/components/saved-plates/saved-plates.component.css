@@ -1,5 +1,8 @@
 h1 {
     font-size: 30px;
-    color: red;
     font-family: roboto;
+    color:#fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 100px;
 }

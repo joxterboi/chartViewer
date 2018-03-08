@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SavedAirportsComponent } from './components/saved-airports/saved-airports.component';
 import { SavedPlatesComponent } from './components/saved-plates/saved-plates.component';
-import { ContainerComponent } from './components/container/container.component';
+import { SearchComponent } from './components/search/search.component';
 
 
 @NgModule({
@@ -13,7 +13,7 @@ import { ContainerComponent } from './components/container/container.component';
     AppComponent,
     SavedAirportsComponent,
     SavedPlatesComponent,
-    ContainerComponent
+    SearchComponent
   ],
   imports: [
     BrowserModule

@@ -1,6 +1,22 @@
 #container {
     background-color: #212121;
+    width: calc(100vw - 17px);
+    min-height: 100vh;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+}
+app-saved-airports {
+    float: left;
+    width: 350px;
+    border-right: #616161 3px solid;
+    height: 100vh;
+    text-align: center;
 }
 app-saved-plates {
     float: right;
+    width: 350px;
+    border-left: #616161 3px solid;
+    height: 100vh;
+    text-align: center;
 }
