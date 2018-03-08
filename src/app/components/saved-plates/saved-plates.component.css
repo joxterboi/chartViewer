@@ -5,4 +5,16 @@ h1 {
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 100px;
+    float: left;
+}
+img {
+    width: 40px;
+    margin-top: 98px;
+    cursor: pointer;
+}
+#container {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    min-width: 248px;
 }

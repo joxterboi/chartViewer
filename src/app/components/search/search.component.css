@@ -1,3 +1,11 @@
+#container {
+    width: 420px;
+    margin-left: 50%;
+    margin-top: 45vh;
+    transform: translate(-50%, -200%)
+}
+
+
 input {
     border: none;
     border-bottom: 1px solid #fff;
@@ -8,10 +16,18 @@ input {
     padding: 3px 10px;
     font-size: 20px;
     font-family: roboto;
-    margin-left: calc(50% - 350px);
-    margin-top: 50vh;
-    transform: translate(-50%, -200%)
 }
 input::placeholder {
     color: #fff
+}
+button {
+    color: #FF9800;
+    border: 1.7px solid #FF9800;
+    border-radius: 200px;
+    background: none;
+    font-size: 20px;
+    font-family: roboto;
+    padding: 8px 22px;
+    margin-top: 20px;
+    float: right
 }
